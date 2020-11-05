@@ -1,0 +1,9 @@
+runtime: nodejs10
+service: socketio
+
+env_variables:
+  SOCKET_PORT: 65080
+  AUTH_TOKEN: "GROOTSSOCKET"
+
+network:
+  session_affinity: true
